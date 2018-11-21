@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>收藏夹</title>
+</head>
+<body style = "background-color:rgba(241,246,253,100);text-align: center">
+        <div id="main">
+           <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            {% load staticfiles %}
+            <div>这是收藏夹页面</div>
+            </form>
+        </div>
+
+</body>
+
+</html>
